@@ -12,6 +12,17 @@ body{
     width: 85%;
     height: 100%;
 }
+#loading{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 40%;
+}
+#loading>h1{
+    color: var(--color-grey-1);
+    font-size: var(--title-1);
+}
 
 body>header{
     display: flex;
@@ -19,6 +30,10 @@ body>header{
     gap: 35px;
     margin-top: 35px;
 
+}
+.buttonS {
+    background-color: transparent;
+    border: none;
 }
 
 main>h1{
@@ -53,7 +68,7 @@ main>h1{
     color: var(--color-grey-1);
 }
 
-.divSearch>img{
+.divSearch>button>img{
     background-color: var(--color-blue-1);
     padding: 12px 25px;
     height: 16px;
@@ -129,7 +144,7 @@ main>h1{
     color: var(--color-grey-1);
 }
 
-.divSearch>img{
+.divSearch>button>img{
     background-color: var(--color-blue-1);
     padding: 12px 25px;
     height: 28px;
